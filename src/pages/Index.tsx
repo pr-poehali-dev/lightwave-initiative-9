@@ -188,19 +188,59 @@ const slides = [
   },
   {
     id: 24,
-    title: "ЦИФРОВОЕ НАСЛЕДИЕ: ТВОЙ ПРОФИЛЬ ЖИВЁТ ВЕЧНО",
-    hashtag: "#НАСЛЕДИЕ",
-    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/bfa397bc-b793-4324-a50f-3d452a93b931.jpg",
-    accent: "from-slate-400 to-blue-500",
-    glow: "rgba(148,163,184,0.5)",
+    title: "ВМЕСТЕ ОНЛАЙН — ВМЕСТЕ НАВСЕГДА",
+    hashtag: "#ДРУЖБА",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/ca565e9e-722d-4a26-ad60-0014316ac2ce.jpg",
+    accent: "from-yellow-400 to-pink-500",
+    glow: "rgba(251,191,36,0.55)",
   },
   {
     id: 25,
-    title: "ПРИВАТНОСТЬ: ЗАМОК ИЛИ ВИТРИНА?",
-    hashtag: "#ПРИВАТНОСТЬ",
-    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/7420531e-2184-4bfc-be29-f584a5925950.jpg",
-    accent: "from-emerald-400 to-teal-500",
-    glow: "rgba(52,211,153,0.5)",
+    title: "СЕТИ — ДЛЯ ДОБРА. КЛАСС — ДЛЯ ЖИЗНИ",
+    hashtag: "#ПОЗИТИВ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/cd3babb5-9c22-4d73-9f56-831668af258d.jpg",
+    accent: "from-rose-400 to-orange-400",
+    glow: "rgba(251,113,133,0.55)",
+  },
+  {
+    id: 26,
+    title: "",
+    hashtag: "",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/fbe9f76f-4997-4617-a180-41ecb2b2719c.jpg",
+    accent: "",
+    glow: "rgba(139,92,246,0.4)",
+  },
+  {
+    id: 27,
+    title: "",
+    hashtag: "",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/161ae637-ba4f-4355-8471-5c3f79787ef3.jpg",
+    accent: "",
+    glow: "rgba(6,182,212,0.4)",
+  },
+  {
+    id: 28,
+    title: "",
+    hashtag: "",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/2d72f0d5-a60c-4415-b83f-b2b6532b5f84.jpg",
+    accent: "",
+    glow: "rgba(236,72,153,0.4)",
+  },
+  {
+    id: 29,
+    title: "",
+    hashtag: "",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/65be2e70-711e-41ef-a3d8-bfaf532d82cd.jpg",
+    accent: "",
+    glow: "rgba(52,211,153,0.4)",
+  },
+  {
+    id: 30,
+    title: "",
+    hashtag: "",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/bedd2e1c-2581-41a5-bde5-7b297d11512b.jpg",
+    accent: "",
+    glow: "rgba(99,102,241,0.4)",
   },
 ]
 
@@ -367,20 +407,25 @@ export default function Index() {
         className="absolute inset-0 z-10 flex flex-col items-center justify-end pb-20 sm:pb-24 px-6 sm:px-12"
         style={{ opacity: animating ? 0 : 1, transition: "opacity 0.3s ease" }}
       >
-        <div className="mb-4">
-          <span className={`text-transparent bg-clip-text bg-gradient-to-r ${slide.accent} text-sm sm:text-base font-bold tracking-widest`}>
-            {slide.hashtag}
-          </span>
-        </div>
+        {slide.hashtag && (
+          <div className="mb-4">
+            <span className={`text-transparent bg-clip-text bg-gradient-to-r ${slide.accent} text-sm sm:text-base font-bold tracking-widest`}>
+              {slide.hashtag}
+            </span>
+          </div>
+        )}
 
-        <h1
-          className="text-white text-center font-black leading-tight mb-8 text-balance"
-          style={{ fontSize: "clamp(1.4rem, 4.5vw, 4rem)", textShadow: `0 0 60px ${slide.glow}, 0 2px 20px rgba(0,0,0,0.8)` }}
-        >
-          <LineShadowText shadowColor="white" className="italic">
-            {slide.title}
-          </LineShadowText>
-        </h1>
+        {slide.title && (
+          <h1
+            className="text-white text-center font-black leading-tight mb-8 text-balance"
+            style={{ fontSize: "clamp(1.4rem, 4.5vw, 4rem)", textShadow: `0 0 60px ${slide.glow}, 0 2px 20px rgba(0,0,0,0.8)` }}
+          >
+            <LineShadowText shadowColor="white" className="italic">
+              {slide.title}
+            </LineShadowText>
+          </h1>
+        )}
+        {!slide.title && <div className="mb-8" />}
 
         {/* Navigation */}
         <div className="flex items-center gap-4">
