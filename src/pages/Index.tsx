@@ -14,7 +14,7 @@ const slides = [
     id: 2,
     title: "ЛЕНТА: ПЕРВЫЙ ПОСТ — И ТЫ В ИГРЕ",
     hashtag: "#ПЕРВЫЙПОСТ",
-    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/e98419d3-6434-43ca-b585-5fbe53a8ad73.jpg",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/2747d8c3-35e3-40fd-9f03-a3e9dc718878.jpg",
     accent: "from-pink-500 to-fuchsia-500",
     glow: "rgba(236,72,153,0.5)",
   },
