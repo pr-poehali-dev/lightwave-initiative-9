@@ -6,7 +6,7 @@ const slides = [
     id: 1,
     title: "ПРЯМОЙ ЭФИР ИЗ ВАШЕГО ТЕЛЕФОНА",
     hashtag: "#НАЧАЛКА_TV",
-    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/a735f2b7-fa84-4d39-892f-e4234b32be82.jpg",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/ccc597ff-7c7d-4cd7-9282-23bffc0b5b89.jpg",
     accent: "from-red-600 to-pink-500",
     glow: "rgba(239,68,68,0.5)",
   },
@@ -54,7 +54,7 @@ const slides = [
     id: 7,
     title: "ФОЛЛОВЕРЫ: КАК ПЕРВОКЛАССНИКИ С РАНЦАМИ",
     hashtag: "#ФОЛЛОВЕРЫ",
-    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/a7f67cda-66d7-4f45-a023-6a84f6dfd5bb.jpg",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/c8f4d145-221f-4f62-ab8b-4448f434d443.jpg",
     accent: "from-violet-500 to-purple-600",
     glow: "rgba(139,92,246,0.5)",
   },
@@ -78,8 +78,128 @@ const slides = [
     id: 10,
     title: "#4СНЕПРОСТОКЛАСС — ТРЕНД НАВСЕГДА",
     hashtag: "#4СНЕПРОСТОКЛАСС",
-    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/f5126993-3422-4690-9d10-fe139f077951.jpg",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/72e2f52c-5deb-4f23-a2ff-632e1fad61eb.jpg",
     accent: "from-green-400 to-emerald-500",
+    glow: "rgba(52,211,153,0.5)",
+  },
+  {
+    id: 11,
+    title: "МЕМ КЛАССА: ВИРУСНОСТЬ ЗА 3 СЕКУНДЫ",
+    hashtag: "#МЕМ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/97d9cc19-356e-40ce-81c2-6c2af87cdb30.jpg",
+    accent: "from-yellow-400 to-orange-400",
+    glow: "rgba(251,191,36,0.55)",
+  },
+  {
+    id: 12,
+    title: "ЛС: ТО, ЧТО НЕ ДЛЯ ЛЕНТЫ",
+    hashtag: "#ЛССООБЩЕНИЯ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/a8e06827-0a2b-4c88-9942-09487e5c1e80.jpg",
+    accent: "from-pink-400 to-rose-500",
+    glow: "rgba(251,113,133,0.5)",
+  },
+  {
+    id: 13,
+    title: "ЭКРАННОЕ ВРЕМЯ: УРОК, КОТОРОГО НЕТ В РАСПИСАНИИ",
+    hashtag: "#СКРИНТАЙМ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/790445c0-d755-4fe0-84b2-71304738acf8.jpg",
+    accent: "from-red-500 to-orange-600",
+    glow: "rgba(239,68,68,0.55)",
+  },
+  {
+    id: 14,
+    title: "АЛГОРИТМ ЗНАЕТ ТЕБЯ ЛУЧШЕ КЛАССНОГО РУКОВОДИТЕЛЯ",
+    hashtag: "#АЛГОРИТМ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/ca59fee3-0484-4657-af5a-e2c2d0405960.jpg",
+    accent: "from-blue-400 to-cyan-500",
+    glow: "rgba(34,211,238,0.5)",
+  },
+  {
+    id: 15,
+    title: "ДЕТОКС: КОГДА ТЕЛЕФОН ОТДЫХАЕТ — РАСТЁШЬ ТЫ",
+    hashtag: "#ДЕТОКС",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/341617ec-b048-41ac-9ec4-3a54c28f938e.jpg",
+    accent: "from-green-400 to-teal-500",
+    glow: "rgba(52,211,153,0.5)",
+  },
+  {
+    id: 16,
+    title: "СЕЛФИ: ЗЕРКАЛО ИЛИ МАСКА?",
+    hashtag: "#СЕЛФИ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/6b28efe7-20d5-44ab-a5a8-648a0ce097aa.jpg",
+    accent: "from-fuchsia-400 to-pink-500",
+    glow: "rgba(232,121,249,0.5)",
+  },
+  {
+    id: 17,
+    title: "КОММЕНТЫ: ИНТЕРНЕТ НЕ ЗАБЫВАЕТ НИЧЕГО",
+    hashtag: "#КОММЕНТЫ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/f26ea8bc-7984-4031-abf2-bfdd45bb3cf1.jpg",
+    accent: "from-orange-500 to-red-500",
+    glow: "rgba(249,115,22,0.55)",
+  },
+  {
+    id: 18,
+    title: "АВАТАР: ТЫ 2.0 — ОБНОВЛЕНИЕ ВЫШЛО",
+    hashtag: "#АВАТАР",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/ea6a724c-aa34-4e4c-a17b-1fd937c10378.jpg",
+    accent: "from-indigo-400 to-violet-500",
+    glow: "rgba(129,140,248,0.5)",
+  },
+  {
+    id: 19,
+    title: "ОНЛАЙН-КЛАСС: ШКОЛА В 25 ОКНАХ",
+    hashtag: "#ОНЛАЙНКЛАСС",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/a14d2e3c-42cf-4b25-83f3-91b1d6c7f1d6.jpg",
+    accent: "from-cyan-400 to-blue-500",
+    glow: "rgba(34,211,238,0.5)",
+  },
+  {
+    id: 20,
+    title: "УВЕДОМЛЕНИЕ: ЖИЗНЬ ТРЕБУЕТ ВНИМАНИЯ",
+    hashtag: "#УВЕДОМЛЕНИЯ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/b21fd2b9-bcca-4d30-a817-bb03155bda54.jpg",
+    accent: "from-amber-400 to-orange-500",
+    glow: "rgba(251,191,36,0.5)",
+  },
+  {
+    id: 21,
+    title: "@НИКИ: КАК КЛИЧКИ, НО НАВСЕГДА",
+    hashtag: "#НИК",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/ac2c3d67-c8bd-4ec9-990f-2af1d58d499e.jpg",
+    accent: "from-sky-400 to-indigo-500",
+    glow: "rgba(56,189,248,0.5)",
+  },
+  {
+    id: 22,
+    title: "ТРЕНДОВЫЙ ЗВУК: ВСЯ ШКОЛА ТАНЦУЕТ В ТАКТ",
+    hashtag: "#ТРЕНД",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/dffc0c9f-0738-4df7-aaa3-5cc78589feb6.jpg",
+    accent: "from-violet-500 to-pink-500",
+    glow: "rgba(167,139,250,0.5)",
+  },
+  {
+    id: 23,
+    title: "ЧЕЛЛЕНДЖ ПРИНЯТ — КАМЕРА ВКЛЮЧЕНА",
+    hashtag: "#ЧЕЛЛЕНДЖ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/c5cf6d59-9cf4-4b4d-8751-a6703ff2a363.jpg",
+    accent: "from-lime-400 to-green-500",
+    glow: "rgba(163,230,53,0.5)",
+  },
+  {
+    id: 24,
+    title: "ЦИФРОВОЕ НАСЛЕДИЕ: ТВОЙ ПРОФИЛЬ ЖИВЁТ ВЕЧНО",
+    hashtag: "#НАСЛЕДИЕ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/bfa397bc-b793-4324-a50f-3d452a93b931.jpg",
+    accent: "from-slate-400 to-blue-500",
+    glow: "rgba(148,163,184,0.5)",
+  },
+  {
+    id: 25,
+    title: "ПРИВАТНОСТЬ: ЗАМОК ИЛИ ВИТРИНА?",
+    hashtag: "#ПРИВАТНОСТЬ",
+    image: "https://cdn.poehali.dev/projects/567a8a5e-dc7f-4f46-aabe-86d6dcd0b05d/files/7420531e-2184-4bfc-be29-f584a5925950.jpg",
+    accent: "from-emerald-400 to-teal-500",
     glow: "rgba(52,211,153,0.5)",
   },
 ]
@@ -89,6 +209,7 @@ export default function Index() {
   const [animating, setAnimating] = useState(false)
   const touchStartY = useRef<number>(0)
   const containerRef = useRef<HTMLDivElement>(null)
+  const wheelCooldown = useRef(false)
 
   const goTo = (index: number) => {
     if (animating || index === current) return
@@ -114,8 +235,16 @@ export default function Index() {
   useEffect(() => {
     const handleWheel = (e: WheelEvent) => {
       e.preventDefault()
-      if (e.deltaY > 30) goNext()
-      else if (e.deltaY < -30) goPrev()
+      if (wheelCooldown.current) return
+      if (e.deltaY > 30) {
+        goNext()
+        wheelCooldown.current = true
+        setTimeout(() => { wheelCooldown.current = false }, 600)
+      } else if (e.deltaY < -30) {
+        goPrev()
+        wheelCooldown.current = true
+        setTimeout(() => { wheelCooldown.current = false }, 600)
+      }
     }
     const el = containerRef.current
     if (el) el.addEventListener("wheel", handleWheel, { passive: false })
@@ -212,7 +341,6 @@ export default function Index() {
           className="w-full h-full object-cover"
           style={{ filter: "brightness(0.45) saturate(1.3)" }}
         />
-        {/* Neon color overlay per slide */}
         <div
           className="absolute inset-0"
           style={{
@@ -220,18 +348,15 @@ export default function Index() {
             mixBlendMode: "screen",
           }}
         />
-        {/* Bottom gradient for text readability */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30" />
       </div>
 
       {/* Header */}
       <header className="relative z-20 flex items-center justify-between px-6 sm:px-10 py-5">
-        <div className="flex items-center gap-2">
-          <span className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-3 py-1.5">
-            <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-            <span className="text-white text-xs font-bold tracking-widest uppercase">Началка.TV</span>
-          </span>
-        </div>
+        <span className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-3 py-1.5">
+          <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+          <span className="text-white text-xs font-bold tracking-widest uppercase">Началка.TV</span>
+        </span>
         <div className="text-white/40 text-xs font-mono tracking-wider">
           {String(current + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}
         </div>
@@ -242,62 +367,62 @@ export default function Index() {
         className="absolute inset-0 z-10 flex flex-col items-center justify-end pb-20 sm:pb-24 px-6 sm:px-12"
         style={{ opacity: animating ? 0 : 1, transition: "opacity 0.3s ease" }}
       >
-        {/* Hashtag */}
         <div className="mb-4">
           <span className={`text-transparent bg-clip-text bg-gradient-to-r ${slide.accent} text-sm sm:text-base font-bold tracking-widest`}>
             {slide.hashtag}
           </span>
         </div>
 
-        {/* Title */}
-        <h1 className="text-white text-center font-black leading-tight mb-8 text-balance"
-          style={{ fontSize: "clamp(1.6rem, 5vw, 4.5rem)", textShadow: `0 0 60px ${slide.glow}, 0 2px 20px rgba(0,0,0,0.8)` }}
+        <h1
+          className="text-white text-center font-black leading-tight mb-8 text-balance"
+          style={{ fontSize: "clamp(1.4rem, 4.5vw, 4rem)", textShadow: `0 0 60px ${slide.glow}, 0 2px 20px rgba(0,0,0,0.8)` }}
         >
           <LineShadowText shadowColor="white" className="italic">
             {slide.title}
           </LineShadowText>
         </h1>
 
-        {/* Navigation arrows */}
-        <div className="flex items-center gap-6">
+        {/* Navigation */}
+        <div className="flex items-center gap-4">
           <button
             onClick={goPrev}
             disabled={current === 0}
-            className="w-12 h-12 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm flex items-center justify-center text-white disabled:opacity-20 hover:bg-white/20 transition-all duration-200 hover:scale-110"
+            className="w-11 h-11 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm flex items-center justify-center text-white disabled:opacity-20 hover:bg-white/20 transition-all duration-200 hover:scale-110"
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M15 18l-6-6 6-6"/></svg>
           </button>
 
-          {/* Dots */}
-          <div className="flex items-center gap-1.5">
-            {slides.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => goTo(i)}
-                className="transition-all duration-300 rounded-full"
-                style={{
-                  width: i === current ? "28px" : "6px",
-                  height: "6px",
-                  background: i === current
-                    ? `linear-gradient(to right, ${slide.glow.replace("0.5", "1")}, white)`
-                    : "rgba(255,255,255,0.3)",
-                }}
-              />
-            ))}
+          <div className="flex items-center gap-1">
+            {slides.map((_, i) => {
+              const dist = Math.abs(i - current)
+              if (dist > 4) return null
+              return (
+                <button
+                  key={i}
+                  onClick={() => goTo(i)}
+                  className="transition-all duration-300 rounded-full flex-shrink-0"
+                  style={{
+                    width: i === current ? "24px" : dist === 1 ? "7px" : dist === 2 ? "5px" : "4px",
+                    height: i === current ? "7px" : dist === 1 ? "7px" : dist === 2 ? "5px" : "4px",
+                    background: i === current ? "white" : "rgba(255,255,255,0.35)",
+                  }}
+                />
+              )
+            })}
           </div>
 
           <button
             onClick={goNext}
             disabled={current === slides.length - 1}
-            className="w-12 h-12 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm flex items-center justify-center text-white disabled:opacity-20 hover:bg-white/20 transition-all duration-200 hover:scale-110"
+            className="w-11 h-11 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm flex items-center justify-center text-white disabled:opacity-20 hover:bg-white/20 transition-all duration-200 hover:scale-110"
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 18l6-6-6-6"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 18l6-6-6-6"/></svg>
           </button>
         </div>
       </div>
 
-      {/* Slide number indicator side */}
-      <div className="absolute right-6 top-1/2 -translate-y-1/2 z-20 flex flex-col gap-1.5">
+      {/* Side progress bar */}
+      <div className="absolute right-5 top-1/2 -translate-y-1/2 z-20 flex flex-col gap-1">
         {slides.map((_, i) => (
           <button
             key={i}
@@ -305,8 +430,8 @@ export default function Index() {
             className="transition-all duration-300 rounded-full"
             style={{
               width: "3px",
-              height: i === current ? "28px" : "10px",
-              background: i === current ? "white" : "rgba(255,255,255,0.25)",
+              height: i === current ? "22px" : "7px",
+              background: i === current ? "white" : "rgba(255,255,255,0.2)",
             }}
           />
         ))}
