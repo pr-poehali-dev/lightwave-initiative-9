@@ -397,9 +397,7 @@ export default function Index() {
           <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
           <span className="text-white text-xs font-bold tracking-widest uppercase">Началка.TV</span>
         </span>
-        <div className="text-white/40 text-xs font-mono tracking-wider">
-          {String(current + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}
-        </div>
+
       </header>
 
       {/* Main slide content */}
@@ -427,42 +425,10 @@ export default function Index() {
         )}
         {!slide.title && <div className="mb-8" />}
 
-        {/* Navigation */}
-        <div className="flex items-center gap-1">
-          {slides.map((_, i) => {
-            const dist = Math.abs(i - current)
-            if (dist > 4) return null
-            return (
-              <button
-                key={i}
-                onClick={() => goTo(i)}
-                className="transition-all duration-300 rounded-full flex-shrink-0"
-                style={{
-                  width: i === current ? "24px" : dist === 1 ? "7px" : dist === 2 ? "5px" : "4px",
-                  height: i === current ? "7px" : dist === 1 ? "7px" : dist === 2 ? "5px" : "4px",
-                  background: i === current ? "white" : "rgba(255,255,255,0.35)",
-                }}
-              />
-            )
-          })}
-        </div>
+
       </div>
 
-      {/* Side progress bar */}
-      <div className="absolute right-5 top-1/2 -translate-y-1/2 z-20 flex flex-col gap-1">
-        {slides.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => goTo(i)}
-            className="transition-all duration-300 rounded-full"
-            style={{
-              width: "3px",
-              height: i === current ? "22px" : "7px",
-              background: i === current ? "white" : "rgba(255,255,255,0.2)",
-            }}
-          />
-        ))}
-      </div>
+
 
       {/* Keyboard hint */}
       <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-20 text-white/25 text-xs tracking-wider hidden sm:block">
