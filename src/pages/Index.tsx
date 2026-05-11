@@ -428,41 +428,23 @@ export default function Index() {
         {!slide.title && <div className="mb-8" />}
 
         {/* Navigation */}
-        <div className="flex items-center gap-4">
-          <button
-            onClick={goPrev}
-            disabled={current === 0}
-            className="w-11 h-11 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm flex items-center justify-center text-white disabled:opacity-20 hover:bg-white/20 transition-all duration-200 hover:scale-110"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M15 18l-6-6 6-6"/></svg>
-          </button>
-
-          <div className="flex items-center gap-1">
-            {slides.map((_, i) => {
-              const dist = Math.abs(i - current)
-              if (dist > 4) return null
-              return (
-                <button
-                  key={i}
-                  onClick={() => goTo(i)}
-                  className="transition-all duration-300 rounded-full flex-shrink-0"
-                  style={{
-                    width: i === current ? "24px" : dist === 1 ? "7px" : dist === 2 ? "5px" : "4px",
-                    height: i === current ? "7px" : dist === 1 ? "7px" : dist === 2 ? "5px" : "4px",
-                    background: i === current ? "white" : "rgba(255,255,255,0.35)",
-                  }}
-                />
-              )
-            })}
-          </div>
-
-          <button
-            onClick={goNext}
-            disabled={current === slides.length - 1}
-            className="w-11 h-11 rounded-full border border-white/20 bg-white/10 backdrop-blur-sm flex items-center justify-center text-white disabled:opacity-20 hover:bg-white/20 transition-all duration-200 hover:scale-110"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 18l6-6-6-6"/></svg>
-          </button>
+        <div className="flex items-center gap-1">
+          {slides.map((_, i) => {
+            const dist = Math.abs(i - current)
+            if (dist > 4) return null
+            return (
+              <button
+                key={i}
+                onClick={() => goTo(i)}
+                className="transition-all duration-300 rounded-full flex-shrink-0"
+                style={{
+                  width: i === current ? "24px" : dist === 1 ? "7px" : dist === 2 ? "5px" : "4px",
+                  height: i === current ? "7px" : dist === 1 ? "7px" : dist === 2 ? "5px" : "4px",
+                  background: i === current ? "white" : "rgba(255,255,255,0.35)",
+                }}
+              />
+            )
+          })}
         </div>
       </div>
 
