@@ -430,10 +430,7 @@ export default function Index() {
 
 
 
-      {/* Keyboard hint */}
-      <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-20 text-white/25 text-xs tracking-wider hidden sm:block">
-        ← → или скролл для навигации
-      </div>
+
     </div>
   )
 }
